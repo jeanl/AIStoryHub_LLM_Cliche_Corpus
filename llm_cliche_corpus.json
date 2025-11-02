@@ -1,0 +1,419 @@
+{
+  "name": "LLM_Cliche_Corpus",
+  "version": "0.5-no-variants",
+  "updated": "2025-11-02",
+  "notes": "Expanded across rhetoric and multi-genre fiction. Treat each entry as an independent flag. Case-insensitive matching recommended.",
+  "regex_flags": "i",
+  "categories": [
+    {
+      "id": "action_verbs",
+      "title": "Action / Verb Clichés",
+      "items": [
+        "dive","delve","immerse","plunge","explore",
+        "harness","leverage","utilize","unlock","unleash",
+        "empower","enable","equip","embolden","inspire",
+        "elevate","enhance","amplify","augment","enrich",
+        "revolutionize","transform","redefine","reshape","reimagine","reinvent",
+        "streamline","optimize","simplify","systematize","standardize",
+        "facilitate","catalyze","accelerate","expedite",
+        "foster","cultivate","nurture","incubate","grow",
+        "ignite","spark","propel","drive","power","fuel","spearhead","champion",
+        "bridge","connect","unify","merge","integrate","align","synchronize",
+        "iterate","evolve","refine","polish","tighten",
+        "embrace","adopt","double down on",
+        "architect","design","craft","forge","engineer","build","construct",
+        "discover","uncover","reveal","expose","surface",
+        "actualize","manifest","operationalize",
+        "orchestrate","coordinate","choreograph",
+        "calibrate","benchmark","instrument","measure",
+        "de-risk","future-proof","scale","decompose","modularize"
+      ]
+    },
+    {
+      "id": "corporate_inspo",
+      "title": "Corporate / Inspirational Filler",
+      "items": [
+        "journey","mission","purpose","legacy","north star",
+        "vision","values","excellence","integrity","craftsmanship",
+        "driven by innovation","fueled by passion","powered by AI","data-first culture",
+        "shaping the future","building a better tomorrow","future-first","next generation",
+        "transforming lives","making an impact","creating value","customer-obsessed",
+        "delighting users","best-in-class","raising the bar","world-class",
+        "from day one","at scale","move fast","game changer","category-defining",
+        "unlock potential","enable growth","level up","make it simple","democratizing technology"
+      ]
+    },
+    {
+      "id": "pseudo_intellectual",
+      "title": "Pseudo-Intellectual Abstraction",
+      "items": [
+        "realm","paradigm","paradigm shift","essence","quintessence",
+        "construct","scaffold","edifice","edifice of",
+        "dynamic","dynamics","interplay","dialectic",
+        "continuum","spectrum","trajectory","arc",
+        "intersection","nexus","confluence","crossroads",
+        "matrix","fabric","lattice","substrate",
+        "modality","mechanism","mode","vector",
+        "ontology","epistemic","phenomenology","teleology",
+        "framework","schema","template","blueprint",
+        "ecosystem","landscape","universe (product)","terrain",
+        "inflection point","zeitgeist","aperture","lens","heuristic"
+      ]
+    },
+    {
+      "id": "tech_buzz",
+      "title": "Tech / Marketing Buzzwords",
+      "items": [
+        "cutting-edge","state-of-the-art","bleeding-edge","next-gen","groundbreaking",
+        "transformative","revolutionary","game-changing","disruptive",
+        "seamless","frictionless","end-to-end","zero-touch",
+        "robust","resilient","enterprise-grade","battle-tested",
+        "holistic","all-encompassing","360-degree","single pane of glass",
+        "immersive","engaging","captivating","cinematic",
+        "adaptive","dynamic","autonomous","self-healing",
+        "scalable","elastic","cloud-native","serverless",
+        "intuitive","user-friendly","delightful","human-centered",
+        "interoperable","modular","plug-and-play","composable","extensible",
+        "future-proof","built for tomorrow","evergreen",
+        "AI-powered","AI-driven","powered by AI","ML-backed",
+        "data-driven","metrics-driven","evidence-based","insight-led",
+        "turnkey","out-of-the-box","ready-to-use","white-glove",
+        "hyper-personalized","real-time","streaming","low-latency"
+      ]
+    },
+    {
+      "id": "poetic_ai_prose",
+      "title": "Poetic AI Prose Junk",
+      "items": [
+        "neon","neon-lit","neon-drenched","phosphorescent",
+        "tapestry","threads of","fabric of","woven tapestry",
+        "kaleidoscope","shifting mosaic","prismatic","patchwork of light",
+        "symphony","orchestra","chorus","melody of chaos",
+        "whisper","whispering shadows","whisper of static","soft whispers",
+        "labyrinth","labyrinthine","maze of","warren of streets",
+        "veil","shrouded in","under a veil","veil of mist",
+        "pulse of the city","thrum","heartbeat of the world","city pulse",
+        "gossamer","diaphanous",
+        "echo","reverberate","resound","echoed softly",
+        "liminal","threshold","between worlds",
+        "ethereal","otherworldly","ghostly","dreamlike","eldritch",
+        "haze","mist","morning mist","smoke-laced air","blue haze",
+        "moonlight","silver light","pale glow","moonlit streets","lunar glow",
+        "rain-slick","rain whispered","rain traced patterns","rain-gleamed asphalt",
+        "shadows clung","shadows pooled","flickering shadow","ink-dark shadows",
+        "flicker of flame","dancing flame","tiny ember","embers","banked coals",
+        "soft glow","dim glow","afterglow","halo of light",
+        "dust motes","motes of dust","sun motes",
+        "twilight","dusk settled","gloaming",
+        "horizon","blood-red horizon","endless horizon","knife-edge horizon",
+        "heavy silence","thick silence","the silence was deafening","hollow silence",
+        "wind whispered","breeze stirred","gust tugged","air sighed",
+        "fragments of memory","half-remembered","echo of memory","memory’s aftertaste",
+        "fragmented dream","lingering dream","waking dream","dream residue",
+        "mirror","fractured reflection","mercury glass",
+        "canvas","painted sky","brushstroke clouds",
+        "unnatural stillness","frozen moment","held-breath moment",
+        "breath caught","breath hitched","stolen breath",
+        "steady heartbeat","heartbeat echoed","pulse quickened","blood drum",
+        "crimson sky","crimson bloom","scarlet wash",
+        "golden light","golden hour","gilded air","amber wash",
+        "silvered glass","chrome gleam",
+        "fragile moment","fragile peace","fragile beauty",
+        "weightless","suspended in air","floating weightless",
+        "infinite darkness","boundless sky","star-littered vastness",
+        "hollow echo","hollow sound",
+        "old wound","scar that never healed","fresh scars",
+        "light danced","shimmered","glimmered","wavered",
+        "the city slept","the city hummed","the city pulsed","the city breathed",
+        "bones of the city","veins of the city","sinews of the city",
+        "bloomed in the dark","bloom of smoke","night-blooming",
+        "coil of smoke","smoke curled upward","serpent of smoke",
+        "time stood still","time seemed to pause","stretched seconds"
+      ]
+    },
+    {
+      "id": "connectors_scaffold",
+      "title": "Connector / Scaffold Phrases",
+      "items": [
+        "in conclusion","to conclude","to summarize","ultimately","in closing",
+        "moreover","furthermore","additionally","what’s more",
+        "however","nevertheless","nonetheless","even so",
+        "therefore","thus","consequently","as a result","accordingly",
+        "with that in mind","that being said","having said that","be that as it may",
+        "in today's digital age","in today's digital era","in the modern world",
+        "when it comes to","as for","regarding","speaking of",
+        "in the realm of","in the world of","within the domain of","across the landscape of",
+        "it is essential to note that","it's important to understand that","it's worth noting that","needless to say",
+        "at its core","in essence","from a broader perspective","at a high level",
+        "put another way","to put it simply","stated differently"
+      ]
+    },
+    {
+      "id": "ai_safety_padding",
+      "title": "AI Safety / Philosophical Padding",
+      "items": [
+        "responsible AI","ethical AI","trustworthy AI","safety-first AI",
+        "transparently","transparency","explainable","interpretable",
+        "for humanity","for good","for everyone","human-centered AI",
+        "at the intersection of human and machine","human in the loop",
+        "bridging ethics and innovation","guardrails for innovation",
+        "aligned with human values","aligned with human intent","value alignment",
+        "safeguarding the future","protecting society","do no harm",
+        "bias-free AI","fairness by design","accountable AI","privacy-preserving"
+      ]
+    },
+    {
+      "id": "emotional_appeal",
+      "title": "Emotional Appeal Vocabulary",
+      "items": [
+        "resilience","grit","perseverance","fortitude",
+        "empathy","compassion","humanity","kindness",
+        "hope","optimism","faith","light",
+        "connection","belonging","togetherness","community",
+        "identity","authentic self","true self",
+        "purpose","meaning","calling","destiny",
+        "growth","journey of growth","evolution","becoming",
+        "legacy","impact","footprint","mark on the world",
+        "renewal","rebirth","transformation","new beginning",
+        "healing","forgiveness","redemption","second chances"
+      ]
+    },
+    {
+      "id": "metaphor_overload",
+      "title": "Metaphorical Overload",
+      "items": [
+        "symphony","orchestra","chorus","fugue",
+        "dance","choreography","waltz","ballet of",
+        "fabric","tapestry","weave","warp and weft",
+        "mosaic","kaleidoscope","patchwork","stained glass of",
+        "canvas","palette","brushstrokes","gallery of moments",
+        "labyrinth","maze","warren","rabbit warren",
+        "crucible","forge","kiln","smelter of fate",
+        "odyssey","journey","pilgrimage","quest",
+        "alchemy","transmutation","fusion","elixir",
+        "tightrope","balancing act","high wire",
+        "storm of emotions","sea of faces","river of time",
+        "mirror to society","machine as mirror","prism of truth"
+      ]
+    },
+    {
+      "id": "visual_adjectives",
+      "title": "Visual Adjective Clichés",
+      "items": [
+        "vibrant","lively","bustling","teeming",
+        "radiant","luminous","glowing","gleaming","incandescent",
+        "ethereal","otherworldly","ghostly",
+        "shimmering","glittering","glistening","iridescent",
+        "dynamic","ever-changing","fluid",
+        "timeless","enduring","classic","iconic",
+        "boundless","limitless","expansive","sweeping",
+        "captivating","mesmerizing","stunning","arresting",
+        "brooding","gritty","moody","atmospheric"
+      ]
+    },
+    {
+      "id": "corporate_hedges",
+      "title": "Corporate Tone Hedges",
+      "items": [
+        "it is advisable","it is recommended","best practice is",
+        "it depends on","context-dependent","case by case",
+        "you may want to","you might consider","it can be useful to",
+        "generally speaking","in many cases","often","typically",
+        "it's worth noting that","be aware that","note that",
+        "this allows for","this enables","this provides for",
+        "to some extent","can be seen as","arguably"
+      ]
+    },
+    {
+      "id": "structural_repetition",
+      "title": "Structural Repetition Clichés",
+      "items": [
+        "In essence, ___.",
+        "At its core, ___.",
+        "In this context, ___.",
+        "Ultimately, ___.",
+        "That said, ___.",
+        "To put it simply, ___.",
+        "As we’ve seen, ___.",
+        "From a broader perspective, ___.",
+        "In order to ___, ___.",
+        "It wasn’t just ___ — it was ___.",
+        "For a moment, everything was still.",
+        "Somewhere deep inside, she knew.",
+        "It felt as if time had stopped.",
+        "There was something about ___."
+      ]
+    },
+    {
+      "id": "emotion_reaction",
+      "title": "Emotional Reaction Templates",
+      "items": [
+        "panic clawed at","fear clawed at","anxiety clawed at",
+        "heart hammering against","her heart hammered","heart pounding in her ears","pulse racing",
+        "breath coming in","short gasps","ragged breaths",
+        "felt a familiar","that familiar ache",
+        "in her chest","tightness in his chest","weight on her chest",
+        "pervasive silence","oppressive silence","heavy quiet",
+        "dread pooled in","cold dread in","swell of dread",
+        "cold sweat","cold sweat trickled","sheen of sweat",
+        "muscles tensed","jaw tightened","hands clenched","teeth clenched",
+        "a chill ran down","shiver ran down","ice down her spine",
+        "heart sank","stomach dropped","knees went weak",
+        "tears pricked","eyes stung","throat burned",
+        "relief washed over","anger flared","resolve hardened"
+      ]
+    },
+    {
+      "id": "perception_cognition",
+      "title": "Perception & Cognition Loops",
+      "items": [
+        "she’d seen","she’d watched","she’d hoped","she’d been","she’d never",
+        "in her mind like","her mind like","picture formed in her mind",
+        "a thought flickered","a thought surfaced","the thought crossed her mind","the idea took shape",
+        "realization dawned","it hit her","it struck him","truth landed",
+        "it was as if","as though","it felt like",
+        "memories flooded back","memories washed over","recollections surged","flash of memory",
+        "she couldn’t help but","he couldn’t help but","couldn’t help thinking",
+        "some part of her knew","deep down, he knew","she knew without knowing why",
+        "before she realized it","without thinking","without meaning to"
+      ]
+    },
+    {
+      "id": "skill_precision",
+      "title": "“Practiced Precision” Syndrome",
+      "items": [
+        "with practiced precision","practiced precision","with surgical precision",
+        "in one smooth motion","in a single fluid motion","in a heartbeat",
+        "without hesitation","no hesitation","before he knew it",
+        "muscle memory took over","reflexes honed by years of","automatic grace",
+        "like clockwork","mechanical grace","fluid efficiency","flawless execution"
+      ]
+    },
+    {
+      "id": "atmosphere_env",
+      "title": "Atmospheric & Environmental Tropes",
+      "items": [
+        "the air was thick with","air hung heavy with","air tasted of",
+        "a low hum filled the air","the room hummed","machines thrummed",
+        "the silence was deafening","thick silence","heavy silence","pregnant pause",
+        "shadows clung to the walls","shadows pooled","shadows gathered","shadows crawled",
+        "the neon flickered","flickering neon","sign buzzed",
+        "light filtered through","light spilled through","dim glow","weak light",
+        "rain traced patterns down the glass","rain streaked the pane","rain tapped the window",
+        "night pressed in","darkness pressed close","the city slept","the streets emptied",
+        "sirens wailed in the distance","dogs barked two streets over","tires hissed on wet asphalt",
+        "floorboards creaked","pipes groaned","old radiators rattled"
+      ]
+    },
+    {
+      "id": "simile_spam",
+      "title": "Comparative / Simile Spam",
+      "items": [
+        "like a shadow","like a ghost","like a rumor",
+        "like morning mist","like fog","as thin as mist",
+        "like a storm building","like thunder on the horizon","like gathering clouds",
+        "like a memory half-remembered","like something she’d dreamed","like a photograph left in the sun",
+        "as if the world were holding its breath","as though time paused","as if the room leaned in",
+        "as fragile as glass","as brittle as glass","as delicate as porcelain",
+        "as silent as a grave","as quiet as the grave","graveyard quiet",
+        "as cold as the void","cold as space","cold as the deep",
+        "like a knife through butter","like a house of cards","like a moth to a flame"
+      ]
+    },
+    {
+      "id": "body_anchor",
+      "title": "Body-Anchor Loops",
+      "items": [
+        "tightness in her chest","pressure in his chest","weight on her chest","pain bloomed in her chest",
+        "knot in her stomach","pit in his stomach","stomach clenched","gut twisted",
+        "throat constricted","throat tightened","lump in her throat","throat closed",
+        "heart sank","heart dropped","gut dropped","heart lurched",
+        "pulse in her neck","pulse throbbed at his temple","veins sang",
+        "heat rose to her cheeks","face flushed","cheeks burned","ears burned",
+        "hands clenched","fists clenched","fingers curled","nails bit into her palm",
+        "shoulders slumped","back straightened","spine stiffened","chin lifted",
+        "legs like lead","knees went soft","feet rooted"
+      ]
+    },
+    {
+      "id": "phrase_echoes",
+      "title": "Phrase Echoes (Overtraining Artifacts)",
+      "items": [
+        "in equal measure",
+        "equal measure",
+        "revealing nothing",
+        "revealing not",
+        "with a soft click",
+        "seeking refuge in",
+        "sanctuary where",
+        "drumbeat",
+        "steady drumbeat",
+        "pervasive",
+        "survival against",
+        "felt a familiar",
+        "like morning mist",
+        "in the dead of night",
+        "against all odds",
+        "only then did",
+        "not for the first time"
+      ]
+    },
+    {
+      "id": "genre_specific",
+      "title": "Genre-Specific Fiction Tropes",
+      "items": [
+        "ancient prophecy","chosen one","bloodline secret","lost heir","forbidden magic",
+        "shadowy cabal","conspiracy goes all the way up","the truth would shatter everything",
+        "one last job","retired but pulled back in","it was supposed to be simple",
+        "small town with secrets","picturesque village turned dark","the body was found at dawn",
+        "star-crossed lovers","love that felt inevitable","the kiss tasted like rain",
+        "post-apocalyptic wasteland","makeshift settlement","scavenged tech",
+        "dystopian regime","numbered citizens","gray uniforms",
+        "space station on the edge","airlock hissed","cold stars wheeled",
+        "noir raincoat","smoke curled from the cigarette","city of broken angels",
+        "western high noon","dust devil crossed the street","sun a white coin",
+        "gothic manor","endless corridors","something scratching in the walls",
+        "YA found family","ragtag crew","they were stronger together",
+        "time loop day began again","fractured timeline","paradox waiting",
+        "AI became self-aware","the machine dreamed","algorithm hungered"
+      ]
+    }
+  ],
+  "phrase_patterns": [
+    { "category": "structural_templates", "pattern": "^in essence[,\\s]" },
+    { "category": "structural_templates", "pattern": "^at its core[,\\s]" },
+    { "category": "marketing_templates", "pattern": "at the intersection of\\s+.+\\s+and\\s+.+" },
+    { "category": "marketing_templates", "pattern": "shaping the future of\\s+.+" },
+    { "category": "marketing_templates", "pattern": "unlock( the)? (power|potential) of\\s+.+" },
+    { "category": "marketing_templates", "pattern": "where innovation meets\\s+.+" },
+    { "category": "narrative_templates", "pattern": "it wasn'?t just .+ — it was .+" },
+    { "category": "narrative_templates", "pattern": "for a moment[,\\s] everything was still" },
+    { "category": "narrative_templates", "pattern": "somewhere deep inside[,\\s] (he|she|they) knew" },
+    { "category": "narrative_templates", "pattern": "it (was|felt) as if" },
+    { "category": "narrative_templates", "pattern": "the (world|room|city) (seemed to|appeared to) \\w+ around (him|her|them)" },
+    { "category": "narrative_templates", "pattern": "not for the first time[,\\s]" },
+    { "category": "thriller_templates", "pattern": "it was supposed to be (simple|easy)" },
+    { "category": "romance_templates", "pattern": "they were (never|always) meant to be" },
+    { "category": "fantasy_templates", "pattern": "ancient (prophecy|curse) (foretold|spoke of)" }
+  ],
+  "stop_phrases": [
+    "in today's digital age",
+    "that being said",
+    "with that in mind",
+    "to put it simply",
+    "as we've seen",
+    "it is essential to note that",
+    "it depends on",
+    "you may want to",
+    "in equal measure",
+    "with practiced precision",
+    "heart hammering against",
+    "panic clawed at",
+    "like morning mist",
+    "the air was thick with",
+    "the silence was deafening",
+    "it was supposed to be simple",
+    "against all odds",
+    "not for the first time"
+  ]
+}
