@@ -156,6 +156,20 @@ hits = pattern.findall(your_text)
 
 A keyword match like the one above will get you started, but it can't weigh context, catch a pattern that spans a full sentence, or tell a deliberate quote from a real tell. **[app.aistoryhub.co](https://app.aistoryhub.co)** runs this corpus against full manuscripts with that weighting built in. [Try it free](https://app.aistoryhub.co).
 
+## Claude Skill
+
+`Skills/` packages this corpus as a Claude Skill: `avoid-ai-writing`. Drop the folder into a project's `.claude/skills/` (or wherever your agent loads skills from) and Claude will detect and remove AI writing tells from fiction, blog posts, marketing copy, emails, social posts, docs, and code comments, in either `detect` (flag only) or `rewrite`/`edit` (flag and fix) mode.
+
+The skill is self-contained. `SKILL.md` is the entry point, and the terms themselves are embedded in the reference files rather than just linked, so it keeps working if you copy the folder into another project on its own:
+
+| File | Covers |
+|---|---|
+| `references/words-and-phrases.md` | Vocabulary tiers with replacements, plus grouped phrase lists (marketing hype, stock transitions, hedges, email and social boilerplate) |
+| `references/sentence-and-structure.md` | Sentence-level construction patterns, hook and closer formulas, formatting tells, whole-piece rhythm |
+| `references/fiction-tells.md` | Fiction-only clichés: body language, atmosphere, emotional beats, dialogue-tag crutches, cliché names |
+| `references/channel-and-chatbot-tells.md` | Assistant and chatbot fingerprints treated as near-proof regardless of context |
+| `references/severity-and-workflow.md` | Confidence-tier model, scoring approximation, and register calibration |
+
 ## Changelog
 
 - **1.5** (2026-07-13). Added 184 entries from Wikipedia's "Signs of AI writing," GPTZero AI Vocabulary (3.3M docs), Kobak et al. 2025 (*Science Advances*), Juzek & Ward 2024/2026, Liang et al. 2024, Ward et al. 2025, Zhang et al. 2025 model fingerprints, and EQ-Bench/antislop fiction slop lists. Added a new fiction wing covering body language, emotional beats, atmosphere, structural tells, and place names. Pruned 16 generic terms that turned out to be too false-positive-prone to keep.
